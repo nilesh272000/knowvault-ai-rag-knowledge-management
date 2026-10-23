@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><title>KnowVault AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main><h1>KnowVault AI</h1><p>RAG Knowledge Management Assistant</p>
+<section><h2>Upload Knowledge</h2><input id="file" type="file" accept=".txt,.md,.pdf,.docx"><button onclick="upload()">Index Document</button><pre id="upload"></pre></section>
+<section><h2>Ask the Knowledge Base</h2><textarea id="q" placeholder="Ask a question..."></textarea><button onclick="ask()">Ask</button><pre id="answer"></pre><div id="sources"></div></section>
+<section><h2>Knowledge Base</h2><button onclick="loadDocs()">Refresh</button><div id="docs"></div></section></main><script src="/static/app.js"></script></body></html>
